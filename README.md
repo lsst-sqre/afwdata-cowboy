@@ -15,9 +15,9 @@ Add this to your git configuration. Typically `~/.gitconfig` or the repository's
 	url = "https://git-lfs.lsst.codes"
 ```
 
-There is **no password required** for cloning or pulling from LSST's git-lfs server or s3 service. But it is recommended that you use a [credential helper](https://help.github.com/articles/caching-your-github-password-in-git/) to avoid being prompted for a username and password repeatedly.
+There is **no password required** for cloning or pulling from LSST's git-lfs server or s3 service, but it is recommended that you use a [credential helper](https://help.github.com/articles/caching-your-github-password-in-git/) to avoid being prompted for a username and password repeatedly.
 
-If you are a member of the github lsst organization then you may push using git-lfs. To push you should login using your github username and password to the git-lfs server (git-lfs.lsst.codes).
+If you are a member of the github lsst organization, then you may push using git-lfs. To push, you should login using your github username and password to the git-lfs server (git-lfs.lsst.codes).
 
 
 Setup
@@ -42,7 +42,7 @@ Password for 'https://<git>@git-lfs.lsst.codes': <Github password OR Blank>
 
 If you are only interested in cloning or pulling, login and password may be left blank.
 
-If you are a member of the LSST Github organization then you can use your Github username and password to push to the git-lfs server.
+If you are a member of the LSST Github organization, then you can use your Github username and password to push to the git-lfs server.
 
 ```bash
 Username for 'https://s3.lsst.codes': <Empty>
@@ -76,7 +76,7 @@ Password for 'https://<git>@git-lfs.lsst.codes': <Github password OR Blank>
 
 If you are only interested in cloning or pulling, login and password may be left blank.
 
-If you are a member of the LSST Github organization then you can use your Github username and password to push to the git-lfs server.
+If you are a member of the LSST Github organization, then you can use your Github username and password to push to the git-lfs server.
 
 ```bash
 Username for 'https://s3.lsst.codes': <Empty>
