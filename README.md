@@ -55,7 +55,7 @@ git clone https://github.com/lsst/afwdata-cowboy.git
 `git clone` will ask you to authenticate to our git-lfs server:
 
 ```bash
-Username for 'https://git-lfs.lsst.codes': <GitHub Username, token OR Blank>
+Username for 'https://git-lfs.lsst.codes': <GitHub Username OR Blank>
 Password for 'https://<git>@git-lfs.lsst.codes': <GitHub password, token OR Blank>
 ```
 
