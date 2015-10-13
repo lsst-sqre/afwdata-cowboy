@@ -7,13 +7,7 @@ Test data used to exercise the LSST Stack, including the afw package.
 git-lfs
 -------
 
-afwdata stores large files using [git-lfs](https://git-lfs.github.com/). To use afwdata you must install git-lfs and configure it. LSST runs its own git-lfs server and storage service. Git and git-lfs must be configured to use our server.
-
-Add this to your git configuration, typically in `~/.gitconfig` or the repository's `.git/config` file.
-```
-[lfs]
-	url = "https://git-lfs.lsst.codes"
-```
+afwdata stores large files using [git-lfs](https://git-lfs.github.com/). To use afwdata you must install git-lfs and configure it. LSST runs its own git-lfs server and storage service.
 
 There is **no password required** for cloning or pulling from LSST's git-lfs server, but it is recommended that you use a [credential helper](https://help.github.com/articles/caching-your-github-password-in-git/) to avoid being prompted for a username and password repeatedly.
 
@@ -29,11 +23,10 @@ Setup
 brew install git-lfs
 git config --global credential.helper osxkeychain # A credential helper is highly recommended.
 git lfs init
-git config --global lfs.url 'https://git-lfs.lsst.codes'
 git clone ...
 ```
 
-This will install git-lfs, initialize it, configure the osxkeychain credential helper and configure the LSST git-lfs server.
+This will install git-lfs, initialize it, and configure the osxkeychain credential helper.
 
 ```bash
 Username for 'https://git-lfs.lsst.codes': <GitHub Username OR Blank>
@@ -59,11 +52,10 @@ There is no username or password for LSST's S3 service.
 ```bash
 git config --global credential.helper cache # A credential helper is highly recommended.
 git lfs init
-git config --global lfs.url 'https://git-lfs.lsst.codes'
 git clone ...
 ```
 
-This will initialize git-lfs, configure the cache credential helper, and configure the LSST git-lfs server.
+This will initialize git-lfs and configure the cache credential helper.
 
 ```bash
 Username for 'https://git-lfs.lsst.codes': <GitHub Username OR Blank>
