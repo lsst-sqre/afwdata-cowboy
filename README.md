@@ -15,7 +15,7 @@ If you are a member of the lsst GitHub organization, then you may push using git
 
 <a name="token"></a>
 If you are using [GitHub's two-factor authentication (2FA)](https://help.github.com/articles/about-two-factor-authentication/), use a personal access token instead of your GitHub password.
-You can create a token specifically for `git-lfs.lsst.codes` by going to [https://github.com/settings/tokens](https://github.com/settings/tokens).
+You can create a token specifically for `git-lfs.lsst.codes` by going to [https://github.com/settings/tokens](https://github.com/settings/tokens). Tokens only require read:org scope.
 
 
 Setting up git-lfs for the first time
